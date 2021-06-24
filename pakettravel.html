@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+
+    <!-- Xzoom -->
+    <link rel="stylesheet" href="/frontend/libraries/xzoom/xzoom.css">
+    <!-- gijgo -->
+    <link rel="stylesheet" href="/frontend/libraries/gijgo/css/gijgo.min.css">
+
+    <!-- My Font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800|Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="frontend/styles/main.css">
+
+    <title>Arah Angin Lombok</title>
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light my-2">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/frontend/images/logo patner/2.png" alt="Arah Angin Lombok" width="75">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-3 active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-3">
+                        <a class="nav-link active" href="#">Paket Travel</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-3">
+                        <a class="nav-link" href="#">Testimonial</a>
+                    </li>
+
+                    <!-- untuk mobile -->
+                    <div class="form form-inline d-sm-block d-md-none">
+                        <button class="btn btn-login my-2 my-sm-0"> Masuk </button>
+                    </div>
+
+                    <!-- untuk desktop -->
+                    <div class="form form-inline my-2 my-lg-0 d-none d-md-block">
+                        <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4"> Masuk </button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <main>
+        <section class="section-paket-header"></section>
+        <section class="section-paket-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <form class="form-inline">
+                            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Nama">
+                            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Alamat">
+                            <input type="date" class="form-control mb-2 mr-sm-2" placeholder="Tanggal">
+                            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Harga Min">
+                            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Harga Max">
+                            <button type="submit" class="btn btn-paket-cari mb-2 px-4">Cari</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- paket travel -->
+        <section class="section-populer-content" id="populerContent">
+            <div class="container">
+                <div class="row justify-content-center section-populer-travel">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                            style="background-image: url('/frontend/images/populer/g1@2x.png');">
+                            <div class="travel-negara">Indonesia</div>
+                            <div class="travel-lokasi">Gunung Rinjani</div>
+                            <div class="travel-button mt-auto">
+                                <a href="detail.html" class="btn btn-travel-details px-4">
+                                    Lihat Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                            style="background-image: url('/frontend/images/populer/g2@2x.png');">
+                            <div class="travel-negara">Indonesia</div>
+                            <div class="travel-lokasi">Pantai Aan</div>
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details px-4">
+                                    Lihat Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                            style="background-image: url('/frontend/images/populer/g3@2x.png');">
+                            <div class="travel-negara">Indonesia</div>
+                            <div class="travel-lokasi">Seger Kuta</div>
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details px-4">
+                                    Lihat Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                            style="background-image: url('/frontend/images/populer/g4@2x.png');">
+                            <div class="travel-negara">Indonesia</div>
+                            <div class="travel-lokasi">Sembalun</div>
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details px-4">
+                                    Lihat Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                            style="background-image: url('/frontend/images/populer/g4@2x.png');">
+                            <div class="travel-negara">Indonesia</div>
+                            <div class="travel-lokasi">Sembalun</div>
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details px-4">
+                                    Lihat Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                            style="background-image: url('/frontend/images/populer/g1@2x.png');">
+                            <div class="travel-negara">Indonesia</div>
+                            <div class="travel-lokasi">Sembalun</div>
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details px-4">
+                                    Lihat Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                            style="background-image: url('/frontend/images/populer/g3@2x.png');">
+                            <div class="travel-negara">Indonesia</div>
+                            <div class="travel-lokasi">Sembalun</div>
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details px-4">
+                                    Lihat Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                            style="background-image: url('/frontend/images/populer/g2@2x.png');">
+                            <div class="travel-negara">Indonesia</div>
+                            <div class="travel-lokasi">Sembalun</div>
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details px-4">
+                                    Lihat Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- akhir paket travel -->
+    </main>
+
+    <!-- footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h3>Fitur</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Komunitas</a></li>
+                                <li><a href="#">Sosial Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h3>Akun</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Keamanan</a></li>
+                                <li><a href="#">Penghargaan</a></li>
+                                <li><a href="#"></a>Pengambilan Dana</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h3>Perusahaan</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Karir</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">Pusat Bantuan</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h3>Hubungi</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Arah Angin Lombok</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">arahanginlombok@gmail.com</a></li>
+                                <li><a href="#">09832983223</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center border-top align-items-center pt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2020 Copyright Haqqul • All rights reserved • Made in Malang
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- akhir footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="/frontend/libraries/retina/retina.min.js"></script>
+    <script src="/frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="/frontend/libraries/gijgo/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="/frontend/images/icon/ic_doe.png" />'
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
